@@ -1,0 +1,61 @@
+
+  .container-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    border-bottom: 1px solid #cdced2 ;
+    background-color: #EAEBF0;
+
+    ul {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .link-home {
+      color: #131DF7;
+      text-decoration: none;
+      font: 400 1.09rem sans-serif;
+      font-weight: bold;
+      transition: all 1s ease 0s;
+      transition-property: all;
+      transition-duration: 1s;
+      transition-timing-function: ease;
+      transition-delay: 0s;
+
+    }
+
+    .link-home:hover {
+      transition: all 1s ease 0s;
+      transition-property: all;
+      transition-duration: 1s;
+      transition-timing-function: ease;
+      transition-delay: 0s;
+      color: #7077fc;
+    }
+
+    .link-projects {
+      color: #131DF7;
+      text-decoration: none;
+      font: 400 1.09rem sans-serif;
+      font-weight: bold;
+
+      transition: all 1s ease 0s;
+      transition-property: all;
+      transition-duration: 1s;
+      transition-timing-function: ease;
+      transition-delay: 0s;
+
+    }
+
+    .link-projects:hover {
+      transition: all 1s ease 0s;
+      transition-property: all;
+      transition-duration: 1s;
+      transition-timing-function: ease;
+      transition-delay: 0s;
+      color: #7077fc;
+    }
+  }
